@@ -1,11 +1,11 @@
 function getRandInt(min, max){
-  return Math.round(Math.random() * (max - min) + min)
+  return Math.floor(Math.random() * (max - min) + min)
 }
 
 const classes = ["Gryffindor", "Slytherin", "Hufflepuff", "Ravenclaw"]
-var choice = getRandInt(0, 3)
+let choice = getRandInt(0, 3)
 
-var user_name = prompt("What is your name?")
+let user_name = prompt("What is your name?")
 
 console.log(choice)
 console.log(classes[choice])

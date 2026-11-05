@@ -1,11 +1,11 @@
 numbers = []
-var summ = 0
-var product = 0
-var avg = 0
+let summ = 0
+let product = 0
+let avg = 0
 
 while (numbers.length < 3){
-  var num = prompt("Give an int")
-  var num = parseInt(num)
+  let num = prompt("Give an int")
+  num = parseInt(num)
   if (Number.isInteger(num)) {
     numbers.push(num)
   } else {
